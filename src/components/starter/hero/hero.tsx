@@ -9,7 +9,6 @@ export default component$(() => {
         <br />
         We Need <span class="highlight">Mainstream Token</span> First
       </h3>
-      <p>Visit <a href="https://mainstreamtoken.com">mainstreamtoken.com</a></p>
       <div class={styles["button-group"]}>
         <a
           href="https://mainstreamtoken.com"
@@ -17,7 +16,7 @@ export default component$(() => {
           rel="noopener noreferrer"
           class="button button-gold"
         >
-          Visit Mainstream Token Website
+          <strong>Visit Mainstream Token Website </strong>
         </a>
       </div>
     </div>
