@@ -5,7 +5,7 @@ export default component$(() => {
   return (
     <div class={["container", styles.hero]}>
       <img 
-        src="/mcoinlogo.webp" 
+        src="/media/mcoinlogo.webp" 
         alt="Mainstream Coin Logo" 
         class={styles.logo}
         width={200}
