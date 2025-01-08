@@ -1,11 +1,11 @@
 import { component$ } from "@builder.io/qwik";
 import styles from "./hero.module.css";
+import ImgMcoinlogo from '~/media/mcoinlogo.webp?jsx';
 
 export default component$(() => {
   return (
     <div class={["container", styles.hero]}>
-      <img 
-        src="/media/mcoinlogo.webp" 
+      <ImgMcoinlogo 
         alt="Mainstream Coin Logo" 
         class={styles.logo}
         width={200}
