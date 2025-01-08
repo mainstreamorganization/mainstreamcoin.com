@@ -67,13 +67,6 @@ export default component$(() => {
         >
           Click Here 
         </button>
-        <a
-          href="https://qwik.dev/docs"
-          target="_blank"
-          class="button button-dark"
-        >
-          Explore the docs
-        </a>
       </div>
     </div>
   );
