@@ -17,7 +17,7 @@ export default component$(() => {
           rel="noopener noreferrer"
           class="button button-gold"
         >
-          Click Here
+          Visit Mainstream Token Website
         </a>
       </div>
     </div>
