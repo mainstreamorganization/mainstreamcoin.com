@@ -4,12 +4,12 @@ import styles from "./hero.module.css";
 export default component$(() => {
   return (
     <div class={["container", styles.hero]}>
-      <h1>
-        So <span class="highlight">fantastic</span>
+      <h3>
+        To Have <span class="highlight">Mainstream Coin</span>,
         <br />
-        to have <span class="highlight">you</span> here
-      </h1>
-      <p>Have fun building your App with Qwik.</p>
+        We Need <span class="highlight">Mainstream Token</span> First
+      </h3>
+      <p>Visit <a href="https://mainstreamtoken.com">mainstreamtoken.com</a></p>
       <div class={styles["button-group"]}>
         <button
           onClick$={async () => {
@@ -65,7 +65,7 @@ export default component$(() => {
             setTimeout(shoot, 400);
           }}
         >
-          Time to celebrate
+          Click Here 
         </button>
         <a
           href="https://qwik.dev/docs"
