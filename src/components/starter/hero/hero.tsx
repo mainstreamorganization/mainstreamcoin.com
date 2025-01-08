@@ -4,6 +4,13 @@ import styles from "./hero.module.css";
 export default component$(() => {
   return (
     <div class={["container", styles.hero]}>
+      <img 
+        src="/mcoinlogo.webp" 
+        alt="Mainstream Coin Logo" 
+        class={styles.logo}
+        width={200}
+        height={200}
+      />
       <h3>
         To Have <span class="highlight">Mainstream Coin</span>,
         <br />
