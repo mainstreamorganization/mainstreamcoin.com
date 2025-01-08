@@ -8,8 +8,6 @@ export default component$(() => {
       <ImgMcoinlogo 
         alt="Mainstream Coin Logo" 
         class={styles.logo}
-        width={200}
-        height={200}
       />
       <h3>
         To Have <span class="highlight">Mainstream Coin</span>,
