@@ -11,8 +11,11 @@ export default component$(() => {
       </h3>
       <p>Visit <a href="https://mainstreamtoken.com">mainstreamtoken.com</a></p>
       <div class={styles["button-group"]}>
-        <button
-          onClick$={async () => {
+        <a
+          href="https://mainstreamtoken.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="button button-gold"
             const defaults = {
               spread: 360,
               ticks: 70,
@@ -63,10 +66,9 @@ export default component$(() => {
             setTimeout(shoot, 200);
             setTimeout(shoot, 300);
             setTimeout(shoot, 400);
-          }}
         >
-          Click Here 
-        </button>
+          Click Here
+        </a>
       </div>
     </div>
   );

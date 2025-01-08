@@ -40,7 +40,7 @@ h1 {
 }
 h1 .highlight,
 h3 .highlight {
-  color: var(--qwik-light-blue);
+  color: var(--qwik-gold);
 }
 
 h2 {
@@ -123,7 +123,7 @@ ul {
 /* BUTTONS -------------------------------------- */
 a.button,
 button {
-  background: var(--qwik-light-blue);
+  background: var(--qwik-gold);
   border: none;
   border-radius: 8px;
   color: white;
@@ -136,6 +136,12 @@ button {
 a.button.button-dark,
 button.button-dark {
   background: var(--qwik-dirty-black);
+}
+
+a.button.button-gold,
+button.button-gold {
+  background: var(--qwik-gold);
+  color: var(--qwik-dirty-black);
 }
 
 a.button.button-small,
