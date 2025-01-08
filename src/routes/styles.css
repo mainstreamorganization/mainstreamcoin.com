@@ -20,9 +20,10 @@ html {
 }
 
 body {
-  background: var(--qwik-dark-background);
-  color: var(--qwik-dark-text);
-  overflow-x: hidden;
+   background-image: url('/mainstreamcoinbg.webp');
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
 }
 
 /* HEADINGS ------------------------------------- */
